@@ -1,0 +1,101 @@
+.publications {
+  color: #0a244d;
+  margin-top: 100px;
+  font-family: "Arial Rounded MT Bold";
+}
+
+.publications h1 {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.publications p {
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+}
+
+.scholar-link {
+  color: #0a244d;
+  text-decoration: underline;
+}
+
+.publications h2 {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin: 70px 0 25px;
+}
+
+.pub-item {
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  padding: 2px 0px 10px 20px;
+  margin: 20px 0;
+  position: relative;
+}
+
+.pub-item h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #0a244d;
+  text-align: left;
+}
+
+.pub-title {
+  padding-top: 0px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #0a244d;
+  text-align: left;
+}
+.pub-contributors {
+  margin: 8px 0;
+  font-size: 15px;
+  color: #555;
+  text-align: left;
+  justify-content: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "Arial";
+}
+
+.pub-details {
+  margin: 8px 0 0 0;
+  font-size: 15px;
+  color: #444;
+  text-align: left;
+  justify-content: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "Arial";
+}
+
+.pub-link {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  color: #0a244d;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+}
+
+.pub-link:hover {
+  color: #646cff;
+  background-color: #e3f2fd;
+  border-color: #646cff;
+}

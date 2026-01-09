@@ -1,0 +1,46 @@
+.research-page {
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 60px 0px;
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: #0a244d;
+  background: white;
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.research-page-title {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 60px 0;
+  color: #0a244d;
+}
+
+.research-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding: 0px 60px;
+}
+
+@media (max-width: 768px) {
+  .research-page {
+    padding: 40px 20px;
+  }
+
+  .research-page-title {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+}

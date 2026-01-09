@@ -1,0 +1,117 @@
+.teaching-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 80px;
+  /* font-family: "Helvetica", "Arial", sans-serif; */
+  color: #000;
+  background: white;
+}
+
+.teaching-title {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 60px 0;
+  color: #000;
+  /* font-family: "Helvetica", "Arial", sans-serif; */
+}
+
+.teaching-section {
+  margin-bottom: 50px;
+  margin-left: -250px;
+  text-align: left;
+}
+
+.section-heading {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 30px 0;
+  color: #000;
+  /* font-family: "Times New Roman", serif; */
+  text-align: left;
+}
+
+.courses-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  line-height: 0.5;
+}
+
+.course-item {
+  margin-bottom: 20px;
+  padding-left: 0;
+  /* font-family: "Times New Roman", serif; */
+  list-style: none;
+}
+
+.course-item::before {
+  content: "•";
+  color: #000;
+  margin-right: 8px;
+}
+
+.course-code {
+  font-size: 16px;
+  color: #000;
+  text-align: left;
+  font-weight: 700;
+  font-family: "Arial Rounded MT Bold", Arial, sans-serif;
+}
+
+.course-details {
+  display: block;
+  font-size: 14px;
+  padding-left: 20px;
+  color: #000;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.developed-courses-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.developed-course-item {
+  margin-bottom: 15px;
+  padding-left: 20px;
+  /* font-family: "Times New Roman", serif; */
+  font-size: 16px;
+  color: #000;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .teaching-page {
+    padding: 40px 20px;
+  }
+
+  .teaching-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+
+  .section-heading {
+    font-size: 20px;
+  }
+}
+
+.university-name {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  color: #000;
+  text-align: left;
+}
+
+.course-title {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Arial Rounded MT", Arial, sans-serif;
+  /* color: #565656; */
+  color: #000000;
+}

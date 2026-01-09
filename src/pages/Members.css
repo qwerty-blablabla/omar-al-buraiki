@@ -1,0 +1,102 @@
+.members-container {
+  text-align: center;
+  color: #0a244d;
+  padding: 40px 20px;
+}
+
+.members-container h1 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.members-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Card layout */
+.member-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  padding: 30px;
+  gap: 30px;
+}
+
+.member-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+/* Photo */
+.member-photo {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+/* Info block */
+.member-info {
+  flex: 1;
+}
+
+.member-info h3 {
+  margin: 0;
+  font-size: 22px;
+  color: #0a244d;
+}
+
+.member-role {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 6px 0 14px 0;
+  color: #444;
+}
+
+.member-bio {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 18px;
+}
+
+/* Icon row */
+.member-icons {
+  display: flex;
+  gap: 12px;
+}
+
+.member-icons img {
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.member-icons a:hover img {
+  opacity: 1;
+}
+
+/* Optional responsive tweak */
+@media (max-width: 700px) {
+  .member-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .member-photo {
+    margin-bottom: 16px;
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "id": "home",
+      "label": "Home",
+      "path": "/omar-al-buraiki",
+      "visible": true
+    },
+    {
+      "id": "publications",
+      "label": "Publications",
+      "path": "/publications",
+      "visible": true
+    },
+    {
+      "id": "research",
+      "label": "Research Projects",
+      "path": "/research",
+      "visible": false
+    },
+    {
+      "id": "members",
+      "label": "Members",
+      "path": "/members",
+      "visible": true
+    },
+    {
+      "id": "students",
+      "label": "Prospective Students",
+      "path": "#",
+      "visible": true
+    },
+    {
+      "id": "software",
+      "label": "Software and Datasets",
+      "path": "#",
+      "visible": true
+    },
+    {
+      "id": "youtube",
+      "label": "YouTube",
+      "path": "#",
+      "visible": false
+    }
+  ]
+}

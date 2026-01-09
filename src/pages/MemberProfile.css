@@ -1,0 +1,48 @@
+.member-profile {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 60px;
+  color: #0a244d;
+}
+
+.profile-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.profile-left {
+  flex: 1;
+  align-items: left;
+  text-align: left;
+}
+
+.profile-right img {
+  width: 280px;
+  height: auto;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.bio-section {
+  margin-top: 60px;
+  text-align: left;
+}
+
+.profile-icons {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.profile-icons img {
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.profile-icons a:hover img {
+  opacity: 1;
+}

@@ -1,0 +1,42 @@
+.navbar {
+  background-color: #b4292e;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 10px 10px; /* 5px for top and bottom, 10px for left and right */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.navbar-left {
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px;
+  transition: color 0.2s;
+}
+/* on hover make a white underline with shadow behind the text*/
+.navbar-right a:hover {
+  color: #ccc;
+  text-decoration: underline;
+  text-shadow: 0 0 30px rgb(200, 255, 0); /* 0 for */
+}

@@ -1,0 +1,263 @@
+.admin-panel {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.admin-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.admin-header h2 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.admin-header p {
+  color: #666;
+  margin: 0;
+}
+
+.config-summary {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background-color: #e9ecef;
+  border-radius: 4px;
+  color: #495057;
+}
+
+.message {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.message.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+.config-items {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.config-item {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  background: white;
+  border-radius: 6px;
+  border: 1px solid #e9ecef;
+}
+
+.config-item:last-child {
+  margin-bottom: 0;
+}
+
+.config-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 0;
+}
+
+.config-checkbox {
+  margin-right: 1rem;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.config-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.config-text strong {
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.config-text small {
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+
+.admin-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.admin-buttons {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.save-button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.save-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.save-button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.save-button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.secondary-button {
+  padding: 0.75rem 1.25rem;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  background-color: white;
+  color: #495057;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.secondary-button:hover:not(:disabled) {
+  background-color: #f8f9fa;
+}
+
+.secondary-button:disabled {
+  cursor: not-allowed;
+  color: #adb5bd;
+  border-color: #e9ecef;
+}
+
+.unsaved-indicator-wrapper {
+  min-width: 160px;
+}
+
+.unsaved-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid #f0bf8a;
+  background-color: #fff4e6;
+  color: #d97706;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.unsaved-indicator::before {
+  content: "•";
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.saved-indicator {
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.preview-section {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.preview-section h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.navbar-preview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 1rem;
+  border-radius: 6px;
+  border: 1px solid #e9ecef;
+  font-family: Arial, sans-serif;
+}
+
+.navbar-left {
+  font-weight: bold;
+  color: #333;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.preview-link {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.preview-link:hover {
+  text-decoration: underline;
+}
+
+.loading,
+.error {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+}
+
+.error {
+  color: #dc3545;
+}
+
+@media (max-width: 768px) {
+  .admin-panel {
+    padding: 1rem;
+  }
+
+  .admin-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .admin-buttons {
+    justify-content: stretch;
+  }
+
+  .navbar-preview {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .navbar-right {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
